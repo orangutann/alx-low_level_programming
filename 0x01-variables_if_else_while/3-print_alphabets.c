@@ -14,6 +14,7 @@ int main(void)
 {
 	char letter = 'a';
 	char capLetter = 'A';
+
 	while (letter <= 'z')
 	{
 		putchar(letter);
