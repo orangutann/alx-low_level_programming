@@ -10,14 +10,13 @@
  */
 int main(void)
 {
-	char num = 0;
 	int count = 0;
 
 	while (count <= 15)
 	{
 		if (count < 10)
 		{
-			putchar(num + count);
+			putchar('0' + count);
 		} else
 		{
 			putchar('a' + (count - 10));
