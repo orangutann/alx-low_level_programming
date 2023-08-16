@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include "main.h"
 /* more headers goes there */
 
 /**
@@ -10,6 +10,13 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	int i = 0;
+
+	char str[] = "_putchar\n";
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	return (0);
 }
