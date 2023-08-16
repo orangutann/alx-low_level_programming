@@ -11,8 +11,8 @@
 int main(void)
 {
 	int i = 0;
-
 	char str[] = "_putchar\n";
+
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
